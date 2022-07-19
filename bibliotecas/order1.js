@@ -1,7 +1,5 @@
 const chalk = require('chalk');
-// doc chalk https://github.com/chalk/chalk#readme
 const fs = require('fs');
-// doc fs https://nodejs.org/api/fs.html
 console.log('start');
 
 const paragrafo = 'Texto retornado para uma função';
