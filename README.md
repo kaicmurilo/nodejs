@@ -10,3 +10,8 @@ fs https://nodejs.org/api/fs.html
 order3 - usando funcao async com try catch e finnaly
 
 order4 - expressao regular
+
+order5- recebendo paramentro via linha de comando
+
+
+http-validacao - validação de links com status cod
