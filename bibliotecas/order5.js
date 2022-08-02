@@ -6,6 +6,7 @@ function ExtraiLinks(texto) {
     const regex = /\[([^\]]*)\]\((https?:\/\/[^$#\s].[^\s]*)\)/gm;
     const arryResultados = [];
     let temp;
+    console.log(temp = regex.exec(texto))
     while ((temp = regex.exec(texto)) !== null) {
         arryResultados.push({ [temp[1]]: temp[2] })
     }
