@@ -1,6 +1,8 @@
 "# nodejs" 
 
 
+biblioteca ----
+
 COMANDO 1 PARA EXECUTAR -- npm run cli validar
 
 
@@ -32,4 +34,12 @@ jest - Testes unitários, Que testes unitários são usados para testar partes p
 
 
 
-..
+--- inspectins
+
+usando express e nodemon para rodar o servidor, facilitando teste de debug diretamente no vscode
+npm i express
+npm i -g nodemon
+
+para executar o codigo nodemon --inspect ./server.js
+COnhecimento 
+https://cursos.alura.com.br/extra/alura-mais/debugando-projetos-nodejs-no-vscode-c23
