@@ -43,3 +43,11 @@ npm i -g nodemon
 para executar o codigo nodemon --inspect ./server.js
 COnhecimento 
 https://cursos.alura.com.br/extra/alura-mais/debugando-projetos-nodejs-no-vscode-c23
+
+
+
+-----export modules
+adaptação de artigo para module.exports
+https://www.alura.com.br/artigos/utilizando-export-modules-no-node-js
+
+
