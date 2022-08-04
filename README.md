@@ -1,6 +1,14 @@
 "# nodejs" 
 
 
+COMANDO 1 PARA EXECUTAR -- npm run cli validar
+
+
+USANDO JEST PARA TESTE. 
+npm install --save-dev jest
+
+
+
 order1 - estudo da biblioteca chalk
 chalk https://github.com/chalk/chalk#readme
 
@@ -14,4 +22,14 @@ order4 - expressao regular
 order5- recebendo paramentro via linha de comando
 
 
-http-validacao - validação de links com status cod
+http-validacao - validação de links com status cod / //spread operator
+operador de espalhamento (spread operator) para desconstruir e remontar um objeto.
+Este operador tem vários usos práticos tanto para arrays quanto para objetos. Lib node-fetch para acessar URLs e devolver informações como código de status HTTP; Promise.all para acessar de forma assíncrona um array de URLs e receber o resultado. Combinar o uso do node-fetch e de promessas com async/await para garantir que o código seja executado de forma assíncrona, retornando os resultados
+
+
+
+jest - Testes unitários, Que testes unitários são usados para testar partes pequenas do código em separado e que utilizamos os métodos da lib Jest para executá-los. Como fazer a leitura do resultados dos testes e qual é o significado de cada parte da sintaxe do Jest, como os métodos describe(), it() e toEqual(). giaComo pensamos nos testes de forma a garantir que um erro no uso do programa realmente gere uma resposta e que é importante que isso ocorra para garantir que possíveis erros não passem despercebidos pelo usuário.
+
+
+
+..
