@@ -1,0 +1,10 @@
+Usar varias versoes do node.js
+
+ NVM pode baixar várias versões diferentes do Node.JS na nossa máquina.
+https://github.com/coreybutler/nvm-windows/releases
+nvm install <versão> 
+
+nvm ls -> lista versoes instaladas na maquina 
+
+nvm use <versa> -> escolhe a versao a ser usada 
+
