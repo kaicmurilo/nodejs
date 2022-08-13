@@ -1,2 +1,7 @@
 node --version
 verifica versao instalada
+
+
+Documentacao de modulos embarcados de api no node
+https://nodejs.org/api/
+

@@ -1,0 +1,7 @@
+Server para fazer live reload
+
+npm i nodemon -D
+
+-D para instalar item apenas para o desenvolvimento 
+
+
