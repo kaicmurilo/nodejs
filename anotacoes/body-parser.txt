@@ -1,0 +1,4 @@
+O body-parser é um módulo capaz de converter o body da requisição para vários formatos. Um desses formatos é json
+
+
+npm i --save body-parser
