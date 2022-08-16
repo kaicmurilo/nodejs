@@ -1,0 +1,17 @@
+autor: {type: mongoose.Schema.Types.ObjectId, required: true}, por vai ser o ID de um objeto a referência que vai entrar aqui é um ID de um outro objeto e não um texto em string.
+
+
+Vamos colocar também de parâmetro o ref que é a referência, ele é um ID de entidade autores, eu vou colocar aqui lá do model autores e vou manter aqui o requerido. autor: {type: mongoose.Schema.Types.ObjectId, ref: 'autores', required: true},.
+
+qui no listarLivrosonde eu fazia o find eu vou trocá-lo pelo seguinte, o find vai ficar só livros.find() e depois eu vou fazer um .populate. No populate eu quero popular o campo autor, .populate('autor'). Por fim, essa linha debaixo que passávamos a callback vamos chamá-la com .execute((err, livros) => { res.status(200).json(livros) })
+
+O nosso método ficará assim: livros.find, que ele encontra os livros, popular com os dados de autor e aí executa para ver se o status se está tudo certo, se vai conseguir devolvendo os livros.
+
+
+    static listarLivros = (req, res) => {
+        livros.find()
+            .populate('autor')
+            .exec((err, livros) => {
+                res.status(200).json(livros)
+            })
+    }
