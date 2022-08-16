@@ -1,0 +1,21 @@
+A página index.html
+O conteúdo de upload-arquivo/public/index.html será um formulário apontado para o endereço file/upload que ainda não existe em nosso servidor.
+
+Um ponto a destacar é a propriedade encType para indicar o tipo de codificação utilizado no envio dos dados, em nosso caso multipart/form-data. Através de um <input type="file"> selecionamos o arquivo que desejamos enviar. Por fim, o <input type="submit"> submeterá o formulário e por conseguinte enviará os dados do nosso arquivo:
+
+<!-- public/index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Express, upload de arquivos com Multer</title>
+</head>
+<body>   
+    <h1>Express, upload de arquivos com Multer</h1>
+    <form action='file/upload' method='post' encType="multipart/form-data">
+        <input type="file" name="file" />
+        <input type='submit' value='Upload!' />
+    </form>	
+</body>
+</html>
+Agora que já temos index.html, podemos baixar as dependências necessárias para criar nosso servidor.
