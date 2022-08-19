@@ -1,18 +1,20 @@
 const express = require('express')
 const bodyParser = require('body-parser')
 
-
 const app = express()
+
 app.use(bodyParser.json())
+
 
 const port = 3000
 
-app.get('/', (req, res) => {
+app.get('/teste', (req, res) => {
     res
         .status(200)
-        .send({ mensagem: 'Boas Vindas' })
+        .send({ mensagem: 'boas-vindas API' })
 })
 
-app.listen(port, () => console.log(`servidor rodando em porta ${port}`))
+app.listen(port, () => console.log(`servidor rodando na porta ${port}`))
+
 
 module.exports = app
