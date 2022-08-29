@@ -1,0 +1,8 @@
+use nome_table;
+
+show tables;
+
+describe Pessoas;
+
+select * from Pessoas;
+
