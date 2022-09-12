@@ -1,12 +1,5 @@
 var mysql = require('mysql');
 var pool = mysql.createPool('../sql/config.js');
-// var pool = mysql.createConnection({
-//     host: '172.29.68.16',
-//     user: 'suporte',
-//     password: 'q37A1M9ijjKD1N*V',
-//     database: 'suporte'
-// });
-
 pool.getConnection(function (err, connection) {
     if (err) throw err; // not connected!
 

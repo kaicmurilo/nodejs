@@ -1,10 +1,10 @@
 import mysql from "mysql"
 
 var db = mysql.createConnection({
-    host: '172.29.68.16',
-    user: 'suporte',
-    password: 'q37A1M9ijjKD1N*V',
-    database: 'suporte'
+    host: ip,
+    user: user,
+    password: pass,
+    database: db
 });
 
 db.connect(function (err) {
